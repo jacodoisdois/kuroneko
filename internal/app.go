@@ -7,7 +7,8 @@ import (
 )
 
 func RunApp() {
-	application := app.New()
+	application := app.NewWithID("com.github.jacodoisdois.kuroneko")
+	application.Settings().SetTheme(&ui.OffWhiteTheme{})
 	window := ui.NewMainWindow(application)
 	window.ShowAndRun()
 }

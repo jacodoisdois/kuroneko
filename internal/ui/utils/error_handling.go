@@ -13,3 +13,11 @@ func ThrowError(w fyne.Window, message string) {
 	customDialog.Resize(fyne.NewSize(100, 100))
 	customDialog.Show()
 }
+
+func ShowSuccess(w fyne.Window, message string) {
+	content := widget.NewLabel(message)
+	customDialog := dialog.NewCustom("Success", "OK", content, w)
+
+	customDialog.Resize(fyne.NewSize(100, 100))
+	customDialog.Show()
+}
