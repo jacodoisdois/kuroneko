@@ -2,7 +2,18 @@
 
 A manga CBZ creator inspired by HakuNeko. Transform your downloaded manga chapters into organized CBZ files.
 
-<img src="assets/images/logo.jpg" alt="Kuroneko Logo" width="200" height="200">
+<img src="assets/images/logo.jpg" alt="Kuroneko Logo" width="100" height="100">
+
+## 📋 Table of Contents
+
+- [Features](#-features)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Development](#-development)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
+- [Support](#-support)
 
 ## ✨ Features
 
