@@ -20,3 +20,24 @@
 # Go workspace file
 go.work
 go.work.sum
+
+# Generated bundled assets
+bundled.go
+internal/ui/bundled.go
+internal/ui/bundled_font.go
+
+# Build artifacts
+main
+kuroneko
+kuroneko.app/
+
+# Temporary commit files
+COMMIT_DESCRIPTION.md
+
+# Mock files
+test-data
+
+# macOS
+.DS_Store   
+.AppleDouble
+.LSOverride
